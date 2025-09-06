@@ -17,6 +17,10 @@ public class SolicitudCotizacion {
     private LocalDateTime fecha_solicitud;
     private List<ProductoCotizado> productos;
     private String estado;
+    //private String ciudad;
     private double total;
+    private double impuesto;
+    //private double domicilio;
+    private double totalFinal;
 }
 
